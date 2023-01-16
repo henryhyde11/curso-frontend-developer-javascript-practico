@@ -16,6 +16,11 @@ body {
   margin: 0;
 }
 
+header{
+  display: flex;
+  width: 100%;
+}
+
 .inactive{
   display: none;
 }
@@ -27,6 +32,7 @@ nav {
   display: flex;
   border-bottom: 1px solid var(--very-light-pink);
   padding: 0 24px;
+  width: 100%;
 }
 
 .menu {
@@ -49,7 +55,7 @@ nav {
   height: 60px;
 }
 
-.navbar-left {
+.navbar-left{
   display: flex;
 }
 
@@ -192,3 +198,8 @@ nav {
   }
 }
 
+@media (min-width: 641px){
+  .mobile-menu{
+    display: none;
+  }
+}
