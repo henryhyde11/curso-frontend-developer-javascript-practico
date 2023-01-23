@@ -170,6 +170,7 @@ nav {
   left: 0;
   padding: 0 24px;
   line-height: 8px;
+  background-color: var(--white);
 }
 
 .mobile-menu a {
@@ -213,6 +214,7 @@ nav {
   box-sizing: border-box;
   position: absolute;
   right: 0;
+  background-color: var(--white);
 }
 
 .title-container {
