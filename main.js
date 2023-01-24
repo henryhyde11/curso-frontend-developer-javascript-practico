@@ -156,3 +156,4 @@ for (product of productsList){
     /// \\\
     cardsContainer.appendChild(productCard);
 }
+
